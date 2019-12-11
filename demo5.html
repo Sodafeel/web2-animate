@@ -114,7 +114,7 @@
 		});
 	}
     
-    var timer = setInterval(next,2000);
+    var timer = setInterval(next,3000);
    	imgsbox.onmouseover=function(){
 		animate(left,{opacity:50});
 		animate(right,{opacity:50});
@@ -124,7 +124,7 @@
 	imgsbox.onmouseout=function(){
 		animate(left,{opacity:0});
 		animate(right,{opacity:0});
-		timer=setInterval(next,2000);
+		timer=setInterval(next,3000);
 	}
 
    	right.onclick=next;
