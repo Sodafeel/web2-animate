@@ -1,0 +1,102 @@
+/*
+* @Author: 44749
+* @Date:   2019-12-09 10:50:07
+* @Last Modified by:   44749
+* @Last Modified time: 2019-12-10 21:43:59
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li,ol{
+	list-style: none;
+}
+div{
+	display: block;
+}
+.main{
+	height: 500px;
+}
+
+.scrollbox{
+	height: 25px;
+	background-color:#BEBEBE;
+	position: relative;
+}
+.scrollbox img{
+	position: absolute;
+	top:5px;
+	left: 120px;
+}
+.scrollscope{
+	height: 25px;
+	margin-left: 140px;
+	position: relative;
+	overflow: hidden;
+}
+.words{
+	position: absolute;
+	left:950px ;
+	width: 352px;
+	font-size: 14px;
+	color: #EA0000;
+	line-height: 25px;
+}
+
+.imgsbox{
+	width: 1200px;
+	height: 397px;
+	margin: 20px auto;
+	position:relative;
+	overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left:-1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.imgsbox>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	position: absolute;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255, 0, 0);
+	font-size: 30px;
+	color:white;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	bottom: 20px;
+	left: 500px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin: 0 10px;
+	cursor: pointer;
+	background-color: #ccc;
+	border-radius: 50%;
+	font-size: 13px;
+	text-align: center;
+}
+.nav .active{
+	background-color: red;
+	color: white;
+}
